@@ -11,9 +11,7 @@
       padding: 0;
     }
 
-    body{
-      overflow: hidden;
-    }
+
 
     .container {
       text-align: center;
@@ -40,11 +38,20 @@
 
 
     @media (min-width: 576px) {
-      .box img{
+      body {
+        overflow: hidden;
+      }
+
+      * {
+        transition: 3s;
+      }
+
+      .box img {
         width: 100%;
         height: 100%;
         object-fit: contain;
       }
+
       p {
         display: none;
       }
@@ -56,9 +63,10 @@
 
       .b1 {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%);
+        font-weight: bolder;
       }
 
       .b2 {
@@ -71,95 +79,106 @@
 
       .b3 {
         position: absolute;
-        top: 10%;
+        top: 0%;
         left: 40%;
         transform: translate(-50%);
       }
 
-      .b4{
+      .b4 {
         position: absolute;
-        top: 85%;
+        top: 70%;
         left: 35%;
         transform: translate(-50%);
       }
 
-      .b5{
+      .b5 {
         position: absolute;
-        top: 65%;
+        top: 55%;
         left: 15%;
         transform: translate(-50%);
       }
-      .b6{
+
+      .b6 {
         position: absolute;
         top: 35%;
         left: 90%;
         transform: translate(-50%);
       }
-      .b7{
+
+      .b7 {
         position: absolute;
         top: 75%;
         left: 75%;
         transform: translate(-50%);
       }
-      .b8{
+
+      .b8 {
         position: absolute;
-        top: 20%;
+        top: 10%;
         left: 70%;
         transform: translate(-50%);
       }
-      .l1{
+
+      .l1 {
         position: absolute;
-        top: -30%;
+        top: 10%;
         left: 20%;
-        rotate: 25deg;
-        width: 25%;
+        rotate: 20deg;
+        width: 22.5%;
       }
-      .l2{
+
+      .l2 {
         position: absolute;
-        top: 140%;
+        top: 105%;
         left: 75%;
         rotate: 50deg;
-        width: 10%;
+        width: 7%;
       }
-      .l3{
+
+      .l3 {
         position: absolute;
-        top: 325%;
+        top: 290%;
         left: 30%;
-        rotate: 175deg;
+        rotate: 170deg;
         width: 20%;
       }
-      .l4{
+
+      .l4 {
         position: absolute;
         top: 22.5%;
         left: 53%;
         rotate: 135deg;
         width: 5%;
       }
-      .l5{
+
+      .l5 {
         position: absolute;
-        top: 22.5%;
+        top: 65%;
         left: 92.5%;
         rotate: 35deg;
         width: 10%;
       }
-      .l6{
+
+      .l6 {
         position: absolute;
         top: 75%;
         left: 17.5%;
         rotate: 170deg;
         width: 25%;
       }
-      .l7{
+
+      .l7 {
         position: absolute;
-        top: -150%;
-        left: 30%;
+        top: -200%;
+        left: 32.5%;
         rotate: 150deg;
         width: 10%;
       }
-      .l8{
+
+      .l8 {
         display: none;
       }
-      
+
     }
   </style>
 </head>
